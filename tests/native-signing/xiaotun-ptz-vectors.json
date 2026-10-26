@@ -1,0 +1,10 @@
+{"source":"IotUserDataTools.Companion.getUserData(BB[B)[B","vectors":[
+{"name":"left_press","commandType":0,"commandOption":5,"length":24,"hex":"000500000000000000000000000000000000000000000000"},
+{"name":"left_release","commandType":0,"commandOption":6,"length":24,"hex":"000600000000000000000000000000000000000000000000"},
+{"name":"right_press","commandType":0,"commandOption":7,"length":24,"hex":"000700000000000000000000000000000000000000000000"},
+{"name":"right_release","commandType":0,"commandOption":8,"length":24,"hex":"000800000000000000000000000000000000000000000000"},
+{"name":"up_press","commandType":0,"commandOption":9,"length":24,"hex":"000900000000000000000000000000000000000000000000"},
+{"name":"up_release","commandType":0,"commandOption":10,"length":24,"hex":"000A00000000000000000000000000000000000000000000"},
+{"name":"down_press","commandType":0,"commandOption":11,"length":24,"hex":"000B00000000000000000000000000000000000000000000"},
+{"name":"down_release","commandType":0,"commandOption":12,"length":24,"hex":"000C00000000000000000000000000000000000000000000"}
+]}

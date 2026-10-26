@@ -1,0 +1,428 @@
+{
+  "formatVersion": 1,
+  "sdk": "Yoosee 1.0.0.14 IOT_LIB x64",
+  "source": "https://gw-fota-prod-1251981983.cos.ap-nanjing.myqcloud.com/gwellota/1000/1769075602124/Yoosee_setup1.0.0.14.exe",
+  "installerSha256": "d04d8c8e8b24a2f0418ef6e1d661a1ce8700f5bbd87a711b63a82b4612afa508",
+  "dlls": [
+    {
+      "name": "avcodec-58.dll",
+      "sha256": "915db67e218ac7bfb1a372e0956bfa6067d20b6cd9523288f87811d07afad20d",
+      "size": 74564608,
+      "imports": [
+        "ADVAPI32.dll",
+        "bcrypt.dll",
+        "KERNEL32.dll",
+        "MFPlat.DLL",
+        "msvcrt.dll",
+        "ole32.dll",
+        "USERENV.dll",
+        "WS2_32.dll",
+        "avutil-56.dll",
+        "swresample-3.dll"
+      ]
+    },
+    {
+      "name": "avfilter-7.dll",
+      "sha256": "843b2733e05aa26c7a04c89befb5184f4779d7fbfda806cce8eb0d739566183b",
+      "size": 17016832,
+      "imports": [
+        "ADVAPI32.dll",
+        "CFGMGR32.dll",
+        "GDI32.dll",
+        "KERNEL32.dll",
+        "msvcrt.dll",
+        "ole32.dll",
+        "USER32.dll",
+        "WS2_32.dll",
+        "avcodec-58.dll",
+        "avformat-58.dll",
+        "avutil-56.dll",
+        "postproc-55.dll",
+        "swresample-3.dll",
+        "swscale-5.dll"
+      ]
+    },
+    {
+      "name": "avformat-58.dll",
+      "sha256": "4a3f4efeab062b8465ccbe16c9a7ed33ecba62b9015f64db876c27837ec4eb88",
+      "size": 12865536,
+      "imports": [
+        "ADVAPI32.dll",
+        "CRYPT32.dll",
+        "GDI32.dll",
+        "KERNEL32.dll",
+        "msvcrt.dll",
+        "Secur32.dll",
+        "SHELL32.dll",
+        "USER32.dll",
+        "WS2_32.dll",
+        "avcodec-58.dll",
+        "avutil-56.dll"
+      ]
+    },
+    {
+      "name": "avutil-56.dll",
+      "sha256": "de3d076abd6cae02121f23dabcda99854b4e3dfc72f22e3d11d3be511c2a7ca3",
+      "size": 862208,
+      "imports": [
+        "ADVAPI32.dll",
+        "bcrypt.dll",
+        "CFGMGR32.dll",
+        "KERNEL32.dll",
+        "msvcrt.dll",
+        "ole32.dll",
+        "USER32.dll"
+      ]
+    },
+    {
+      "name": "D3Dcompiler_47.dll",
+      "sha256": "e994847e01a6f1e4cbdc5a864616ac262f67ee4f14db194984661a8d927ab7f4",
+      "size": 4173928,
+      "imports": [
+        "msvcrt.dll",
+        "ADVAPI32.dll",
+        "KERNEL32.dll",
+        "RPCRT4.dll"
+      ]
+    },
+    {
+      "name": "glew32.dll",
+      "sha256": "498ee06b39c2ecb18232a192002c7eeafb04f84a9dfc429b1e837f11b49cfbb0",
+      "size": 426496,
+      "imports": [
+        "OPENGL32.dll"
+      ]
+    },
+    {
+      "name": "GWPlayerLibV1.dll",
+      "sha256": "622e31d0428182d53edbabeb53aab7e095ac944053a1b90ff9d379cc8b75c2d2",
+      "size": 4063744,
+      "imports": [
+        "Qt5Multimedia.dll",
+        "avformat-58.dll",
+        "avcodec-58.dll",
+        "avfilter-7.dll",
+        "swscale-5.dll",
+        "swresample-3.dll",
+        "avutil-56.dll",
+        "glew32.dll",
+        "libcurl.dll",
+        "libxml2.dll",
+        "d3d11.dll",
+        "Qt5Core.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "MSVCP140.dll",
+        "D3DCOMPILER_47.dll",
+        "OPENGL32.dll",
+        "VCRUNTIME140.dll",
+        "VCRUNTIME140_1.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll"
+      ]
+    },
+    {
+      "name": "IOT_LIB.dll",
+      "sha256": "ec07cb4b98bc486e8bdb058c8695d16f0fb2c524be50dd8c9d0f0cfa87fa0990",
+      "size": 2791424,
+      "imports": [
+        "avformat-58.dll",
+        "avcodec-58.dll",
+        "avutil-56.dll",
+        "GWPlayerLibV1.dll",
+        "KERNEL32.dll",
+        "MSVCP140.dll",
+        "VCRUNTIME140.dll",
+        "VCRUNTIME140_1.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "WS2_32.dll",
+        "SHELL32.dll",
+        "ADVAPI32.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll"
+      ]
+    },
+    {
+      "name": "libcurl.dll",
+      "sha256": "58a6ff4992bcf9ffabda91ce2d8d03503cb7f8de464e1c9b1be1082b6d0ebe95",
+      "size": 2274816,
+      "imports": [
+        "WLDAP32.dll",
+        "WS2_32.dll",
+        "CRYPT32.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "bcrypt.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "ADVAPI32.dll"
+      ]
+    },
+    {
+      "name": "libxml2.dll",
+      "sha256": "7defb30ef09ec069049b0c6e37b10acf92797de031ee005b63ce4272123c4a28",
+      "size": 2219520,
+      "imports": [
+        "WSOCK32.dll",
+        "KERNEL32.dll",
+        "MSVCR100.dll"
+      ]
+    },
+    {
+      "name": "msvcp140.dll",
+      "sha256": "b99eb28a471311113f5c4109cb3c463f39cfd9bdb3b07f706204dedddb4516a1",
+      "size": 575568,
+      "imports": [
+        "VCRUNTIME140.dll",
+        "VCRUNTIME140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "KERNEL32.dll"
+      ]
+    },
+    {
+      "name": "msvcp140_1.dll",
+      "sha256": "e10fb192620193cb721516c30533f71ca6b2a4396b48f3858b571143e94aba31",
+      "size": 23944,
+      "imports": [
+        "MSVCP140.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "KERNEL32.dll"
+      ]
+    },
+    {
+      "name": "msvcr100.dll",
+      "sha256": "2b7ab898b2f64f4cd1ae651c93d7eb9556208fd8d8d40d425e856c83d86d2346",
+      "size": 830616,
+      "imports": [
+        "KERNEL32.dll"
+      ]
+    },
+    {
+      "name": "msvcrt.dll",
+      "sha256": "a7f4196d9476d36894ce17c3b0dd97504ca2cc31b3e0a774fee326e867565885",
+      "size": 638552,
+      "imports": [
+        "ntdll.dll",
+        "api-ms-win-core-console-l1-1-0.dll",
+        "api-ms-win-core-console-l1-2-0.dll",
+        "api-ms-win-core-datetime-l1-1-0.dll",
+        "api-ms-win-core-debug-l1-1-0.dll",
+        "api-ms-win-core-errorhandling-l1-1-0.dll",
+        "api-ms-win-core-fibers-l1-1-0.dll",
+        "api-ms-win-core-file-l1-1-0.dll",
+        "api-ms-win-core-handle-l1-1-0.dll",
+        "api-ms-win-core-heap-l1-1-0.dll",
+        "api-ms-win-core-localization-l1-2-0.dll",
+        "api-ms-win-core-libraryloader-l1-2-0.dll",
+        "api-ms-win-core-memory-l1-1-0.dll",
+        "api-ms-win-core-namedpipe-l1-1-0.dll",
+        "api-ms-win-core-processenvironment-l1-1-0.dll",
+        "api-ms-win-core-processthreads-l1-1-0.dll",
+        "api-ms-win-core-profile-l1-1-0.dll",
+        "api-ms-win-core-string-l1-1-0.dll",
+        "api-ms-win-core-synch-l1-1-0.dll",
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "api-ms-win-core-sysinfo-l1-1-0.dll",
+        "api-ms-win-core-util-l1-1-0.dll",
+        "KERNELBASE.dll"
+      ]
+    },
+    {
+      "name": "postproc-55.dll",
+      "sha256": "602608f1df882e67f536e48cb6c0b78816bcd1c38fbcab9076173e61f4270cf2",
+      "size": 136192,
+      "imports": [
+        "ADVAPI32.dll",
+        "KERNEL32.dll",
+        "msvcrt.dll",
+        "avutil-56.dll"
+      ]
+    },
+    {
+      "name": "Qt5Core.dll",
+      "sha256": "8d2ff4ce9096ddccc4f4cd62c2e41fc854cfd1b0d6e8d296645a7f5fd4ae565a",
+      "size": 6023664,
+      "imports": [
+        "MPR.dll",
+        "USERENV.dll",
+        "VERSION.dll",
+        "NETAPI32.dll",
+        "WS2_32.dll",
+        "ADVAPI32.dll",
+        "KERNEL32.dll",
+        "ole32.dll",
+        "SHELL32.dll",
+        "USER32.dll",
+        "WINMM.dll",
+        "MSVCP140.dll",
+        "MSVCP140_1.dll",
+        "VCRUNTIME140.dll",
+        "VCRUNTIME140_1.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll"
+      ]
+    },
+    {
+      "name": "Qt5Gui.dll",
+      "sha256": "5e7d2d41b8b92a880e83b8cc0ca173f5da61218604186196787ee1600956be1e",
+      "size": 7008240,
+      "imports": [
+        "d3d11.dll",
+        "dxgi.dll",
+        "Qt5Core.dll",
+        "GDI32.dll",
+        "ole32.dll",
+        "USER32.dll",
+        "MSVCP140.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "VCRUNTIME140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ]
+    },
+    {
+      "name": "Qt5Multimedia.dll",
+      "sha256": "1a59ae2a9ff768ad6bfb888fe3dd2544e238f0b28da83cf375ebd803ce713dc4",
+      "size": 746480,
+      "imports": [
+        "Qt5Network.dll",
+        "Qt5Gui.dll",
+        "Qt5Core.dll",
+        "MSVCP140.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll"
+      ]
+    },
+    {
+      "name": "Qt5Network.dll",
+      "sha256": "4ef341ae9302e793878020f0740b09b0f31cb380408a697f75c69fdbd20fc7a1",
+      "size": 1340400,
+      "imports": [
+        "Qt5Core.dll",
+        "DNSAPI.dll",
+        "IPHLPAPI.DLL",
+        "CRYPT32.dll",
+        "ADVAPI32.dll",
+        "WS2_32.dll",
+        "MSVCP140.dll",
+        "ole32.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "VCRUNTIME140_1.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll"
+      ]
+    },
+    {
+      "name": "swresample-3.dll",
+      "sha256": "bea5da195e1ce239cb1b050c750fbbfcac2d2f997432e9592e6bbe23513c8831",
+      "size": 610304,
+      "imports": [
+        "ADVAPI32.dll",
+        "KERNEL32.dll",
+        "msvcrt.dll",
+        "avutil-56.dll"
+      ]
+    },
+    {
+      "name": "swscale-5.dll",
+      "sha256": "9b3543e468d148a66c661205da64b28f2f92ffda3012d0282b753f52a7e0d6c8",
+      "size": 572416,
+      "imports": [
+        "ADVAPI32.dll",
+        "KERNEL32.dll",
+        "msvcrt.dll",
+        "avutil-56.dll"
+      ]
+    },
+    {
+      "name": "vcruntime140.dll",
+      "sha256": "8ee6b49830436ff3bec9ba89213395427b5535813930489f118721fd3d2d942c",
+      "size": 94088,
+      "imports": [
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "KERNEL32.dll"
+      ]
+    },
+    {
+      "name": "vcruntime140_1.dll",
+      "sha256": "f8bc270449ca6bb6345e88be3632d465c0a7595197c7954357dc5066ed50ae44",
+      "size": 36744,
+      "imports": [
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "VCRUNTIME140.dll",
+        "KERNEL32.dll"
+      ]
+    }
+  ],
+  "notes": [
+    "Local SDK dependency only; do not redistribute vendor binaries without applicable permission.",
+    "Separate process required because VLC uses different FFmpeg DLL builds with identical names."
+  ]
+}
